@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Game.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D429BD5E-B6DE-4F50-A232-3C51B8EEF91E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\GameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{77E20F56-358D-40FB-8E36-7D8E0D3852F0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Game">
+			<UniqueIdentifier>{509FD859-EC10-4FF8-A839-7B75D795FFCD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game\Game.Build.cs">
+			<Filter>Source\Game</Filter>
+		</None >
+		<Filter Include="Source\Game\Private">
+			<UniqueIdentifier>{050EC60B-D1E3-4A0B-8588-E18C4FA071F6}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Game\Private\Game.cpp">
+			<Filter>Source\Game\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game\Private\GameCharacter.cpp">
+			<Filter>Source\Game\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game\Private\GameGameMode.cpp">
+			<Filter>Source\Game\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Game\Public">
+			<UniqueIdentifier>{18058A1A-EBF9-4131-90F8-49D478457013}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Game\Public\Game.h">
+			<Filter>Source\Game\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game\Public\GameCharacter.h">
+			<Filter>Source\Game\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game\Public\GameGameMode.h">
+			<Filter>Source\Game\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\Game\Resources">
+			<UniqueIdentifier>{3D0E7ED4-434D-4ADF-A963-5F85F56B917A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Game\Resources\Windows">
+			<UniqueIdentifier>{66CCDAF4-10EE-45C5-AAB1-37E49F51933F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game\Resources\Windows\Game.ico">
+			<Filter>Source\Game\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\Game\Resources\Windows\Game.rc">
+			<Filter>Source\Game\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
